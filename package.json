@@ -1,0 +1,32 @@
+{
+  "name": "cypress-typescript-api-testing",
+  "version": "1.0.0",
+  "description": "API testing using cypress.io",
+  "scripts": {
+    "open": "cypress open --e2e --browser electron",
+    "test": "cypress run --e2e",
+    "pretty": "prettier --write \"./**/*.{yml,ts,tsx,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criscarlod/cypress_api_typescript.git"
+  },
+  "keywords": [
+    "cypress",
+    "api-testing",
+    "typescript"
+  ],
+  "author": "Cris Carlo",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@types/node": "^20.11.5",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "cypress": "^13.6.3",
+    "eslint": "^8.56.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "prettier": "3.2.4",
+    "typescript": "^5.3.3"
+  }
+}
