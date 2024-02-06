@@ -22,7 +22,7 @@ git clone https://github.com/criscarlod/cypress_api_typescript.git
 - Change the directory.
 
 ```shell
-cd cypress-typescript-api-testing
+cd cypress_api_typescript
 ```
 
 - Run the test.
